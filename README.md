@@ -42,7 +42,7 @@ Jika bot meminta kode pairing, ikuti instruksi di terminal dan masukkan kode ter
 ## 🔧 Konfigurasi
 Bot menggunakan Google Gemini AI, pastikan Anda memiliki API Key dan edit bagian berikut di kode:
 ```js
-const genAI = new GoogleGenerativeAI("YOUR_GEMINI_API_KEY");
+const genAI = new GoogleGenerativeAI("YOUR_API_KEY_GEMINI");
 ```
 
 ## 🛑 Batasan
