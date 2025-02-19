@@ -11,7 +11,7 @@ const readline = require('readline');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 
 // Konfigurasi Google Gemini AI
-const genAI = new GoogleGenerativeAI("AIzaSyD27VpBDVwbz1zbtq4QmoQtYegvgE0ypWM");
+const genAI = new GoogleGenerativeAI("YOUR_API_KEY_GEMINI");
 const model = genAI.getGenerativeModel({ 
     model: "gemini-1.5-flash",
     systemInstruction: "Kamu adalah bot wa yang bisa menjadi teman ngobrol, curhat dan membantu semua orang, Kamu jago berbahasa Indonesia Namamu adalah BOT-DAV. Diciptakan oleh Petrus David Adi Pranata"
