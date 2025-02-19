@@ -44,8 +44,11 @@ Bot menggunakan Google Gemini AI, pastikan Anda memiliki API Key dan edit bagian
 ```js
 const genAI = new GoogleGenerativeAI("YOUR_API_KEY_GEMINI");
 ```
+---
 ### 🔑 Dapatkan API KEY disini
 **GEMINI_API_KEY** : [Gemini Api Key](https://aistudio.google.com/app/apikey)
+---
+---
 
 ## 🛑 Batasan
 - **Hanya Merespons Chat Pribadi** (Tidak akan membalas di grup)
